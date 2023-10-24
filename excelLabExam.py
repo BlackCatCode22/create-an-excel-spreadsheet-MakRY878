@@ -9,8 +9,8 @@ from openpyxl.styles import NamedStyle
 import datetime
 
 # Define the directory and file paths
-directory = r"C:\2023spring\pythonRoot\lastExcelTry"
-input_file = directory + r"\ExcelLabTestStart.xlsx"
+directory = r"C:\Users\BE123\excelStuff"
+input_file = directory + r"\CIT-15 Excel Lab Test_Start.xlsx"
 output_file = directory + r"\CIT15 Excel lab Test_Final_End.xlsx"
 
 # Load the existing workbook
@@ -179,3 +179,4 @@ class_fees_ws.page_setup.orientation = class_fees_ws.ORIENTATION_LANDSCAPE
 wb.save(output_file)
 
 print(f"File saved as {output_file}")
+
